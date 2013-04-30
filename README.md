@@ -2,7 +2,7 @@ dhbw-td
 =======
 
 
-Software Engineering Projet DHBW Mannheim - DHBW branded tower defense game
+Software Engineering Project DHBW Mannheim - DHBW branded tower defense game
 which makes students subsribe for integrated studies. Works via black magic
 and playn.
 
@@ -13,7 +13,7 @@ Installation steps
 2. Clone this repo.
 3. In a terminal, change directory to where the **pom.xml** resides.
 4. Run `mvn test`
-5. Run `mvn clean install eclipse:eclipse`
+5. Run `mvn clean install eclipse:eclipse -DskipTests`
 6. Import your project in eclipse.
 7. Party!
 
